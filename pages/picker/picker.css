@@ -1,0 +1,26 @@
+/**
+ * @demo page component for picker
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.date-section {
+    margin-bottom: .1rem;
+}
+.section {
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .18rem;
+    background: #fff;
+    padding: 0 .22rem;
+    display: flex;
+}
+.section:active {
+    background-color: #f2f2f2;
+}
+.section-title {
+    color: #000;
+    flex: 0 0 1rem;
+}

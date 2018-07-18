@@ -1,0 +1,7 @@
+<view class="wrap">
+    <view class="video-wrap">
+        <video id="myde" style="width: 100%;" src="{{src}}" controls bindplay="play" bindpause="pause" bindfullscreenchange="fullscreen" bindended="ended" autoplay="{{autoplay}}" muted="{{muted}}"></video>
+    </view>
+    <button class="btn" bindtap="next" type="primary">切换视频地址</button>
+    <button class="btn" bindtap="setmuted" type="primary">设置静音</button>
+</view>

@@ -1,0 +1,22 @@
+/**
+ * @file swan index apiDemo's css
+ * @author renzhonghua
+ */
+
+swan-button {
+    margin-top: .15rem;
+}
+.phone-call-container {
+    margin: 0 .15rem;
+    padding: .3rem 0;
+    background-color: #fff;
+}
+.phone-call-container swan-text{
+    margin: .1rem .23rem .3rem;
+    color: #666;
+}
+.phone-call-container swan-input{
+    padding-left: 0;
+    border-bottom: 1px solid #eee;
+    box-sizing: content-box;
+}

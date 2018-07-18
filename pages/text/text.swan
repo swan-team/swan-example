@@ -1,0 +1,5 @@
+<view class="wrap">
+    <text>{{text}}</text>
+    <button class="btn" type="primary" bind:tap="add">add text</button>
+    <button class="btn" type="primary" bind:tap="remove">remove text</button>
+</view>

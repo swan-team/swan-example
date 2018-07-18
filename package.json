@@ -1,0 +1,15 @@
+{
+  "name": "@swan-team/swan-demo",
+  "version": "0.1.0",
+  "description": "小程序官方示例Demo，用于展示当前已支持的接口能力及组件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:swan-team/swan-example.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

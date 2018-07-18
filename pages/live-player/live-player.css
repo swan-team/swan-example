@@ -1,0 +1,25 @@
+.livewrap {
+    display: block;
+    padding: 30px 23px 0;
+}
+.wrap {
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+.sub-item {
+    display: block;
+    margin: 6px 23px;
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    color: #fff;
+    border-width: 0;
+    background-color: #3c76ff;
+}

@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="page-body">
+        <view class="page-item">
+            <view class="info">{{originData}}</view>
+            <button id="setClipboardData" class="btn" bind:tap="btnClick" type="primary" hover-stop-propagation="true">复制</button>
+        </view>
+        <view class="page-item">
+            <view class="info">{{clipboardData}}</view>
+            <button id="getClipboardData" class="btn" bind:tap="btnClick" type="primary" hover-stop-propagation="true">粘贴</button>
+        </view>
+    </view>
+
+    <view class="page-title">
+        <view class="page-title-line"></view>
+        <view class="page-title-text">{{title}}</view>
+    </view>
+</view>

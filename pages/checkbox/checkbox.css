@@ -1,0 +1,38 @@
+/**
+ * @demo page component for checkbox
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.checkbox {
+    margin: 0 .2rem;
+}
+.item-wrap {
+    background: #fff;
+}
+.checkbox-content {
+    position: relative;
+}
+.item {
+    padding: .15rem 0;
+    border-bottom: 1px #f5f5f5 solid;
+    margin-left: .2rem;
+}
+.checkbox-item {
+    padding: .15rem 0;
+    position: absolute;
+    top: 0;
+    left: .2rem;
+}
+.checkbox-background-active:active {
+    display: block;
+    background-color: #f2f2f2;
+}
+.switch {
+    float: right;
+}
+.takeplace {
+    visibility: hidden;
+}

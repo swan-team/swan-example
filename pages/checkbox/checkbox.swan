@@ -1,0 +1,23 @@
+<view class="wrap">
+    <view class="title">默认样式</view>
+    <checkbox-group bindchange="radioChange" class="checkbox-group">
+        <checkbox class="checkbox" checked>&nbsp;&nbsp;选中</checkbox>
+        <checkbox class="checkbox" checked="false">&nbsp;&nbsp;未选中</checkbox>
+    </checkbox-group>
+
+    <view class="title">推荐示例</view>
+    <view class="item-wrap">
+        <form>
+            <view class="checkbox-content" s-for="item in items">
+                <label class="checkbox-background-active" for="{{item.id}}">
+                    <view class="item">
+                        <checkbox class="takeplace" value="{{item.value}}" checked="{{item.checked}}" id="{{item.id}}">11</checkbox>
+                    </view>
+                </label>
+                <view class="checkbox-item">
+                    <checkbox value="{{item.value}}" checked="{{item.checked}}" id="{{item.id}}">&nbsp;&nbsp;{{item.text}}</checkbox>
+                </view>
+            </view>
+        </form>
+    </view>
+</view>

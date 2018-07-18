@@ -1,0 +1,9 @@
+<view class="wrap">
+    <view class="title">label用for表示表单组件</view>
+    <form class="form">
+        <checkbox class="checkbox" checked>&nbsp;&nbsp;选项一</checkbox>
+        <checkbox class="checkbox" checked="false" id="checkbox2" bind:tap="clickme">&nbsp;&nbsp;选项二</checkbox>
+        <label for="checkbox2" class="labelItem">点击我相当于选择选项二</label>
+    </form>
+</view>
+

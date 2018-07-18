@@ -1,0 +1,19 @@
+<view class="wrap">
+    <view class="title">默认样式</view>
+    <view>
+        <switch class="init-switch" checked></switch><text class="switch-text">开启</text>
+        <switch class="init-switch"></switch><text class="switch-text">关闭</text>
+    </view>
+
+    <view class="title">推荐示例</view>
+    <view class="item-wrap">
+        <view class="item">
+            <text>开启选项</text>
+            <switch checked class="switch"></switch>
+        </view>
+        <view class="item">
+            <text>关闭选项</text>
+            <switch class="switch"></switch>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,52 @@
+/**
+ * @demo page component for button
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+    padding-top: .7rem;
+}
+.mini-btn-content {
+    margin-bottom: .12rem;
+}
+.title {
+    display: inline-block;
+    width: 1.34rem;
+    font-size: .16rem;
+    color: #999;
+    padding: 0 0 0 .2rem !important;
+}
+.mini-btn {
+    margin: 0 .2rem 0 0  !important;
+    padding: 0 !important;
+    width: .57rem;
+    height: .28rem;
+    line-height: .28rem !important;
+}
+.mini-btn:last-child {
+    margin-right: 0 !important;
+}
+.btn-content {
+    padding-top: .52rem;
+}
+.btn {
+    margin: 0 auto .12rem !important;
+    padding: 0 !important;
+    width: 3.29rem;
+    height: .43rem;
+    line-height: .44rem;
+}
+.middle-btn {
+    margin: 0 auto .15rem;
+    width: 1.1rem;
+    height: .36rem;
+    line-height: .36rem;
+}
+.disabled {
+    opacity: .3 !important;
+}
+.primary::after,
+.warn::after {
+    border: none !important;
+}

@@ -1,0 +1,43 @@
+/**
+ * @demo page component for icon
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.group {
+    background: #fff;
+    padding: .17rem .4rem;
+}
+icon:last-child {
+    margin-right: 0;
+}
+.big-default {
+    margin-right: .19rem;
+}
+.small-default {
+    margin: .2rem .2rem .1rem 0;
+    display: inline-block;
+}
+.small-primary {
+    margin: .15rem .2rem .1rem 0;
+    display: inline-block;
+}
+.default {
+    height: 1.8rem;
+}
+.choose {
+    height: .8367rem;
+    line-height: .8rem;
+}
+.icon-color,
+.icon-size {
+    margin-right: .15rem;
+    line-height: 1;
+}
+@media screen and (max-width: 320px) {
+    .icon-color {
+        margin-right: .08rem;
+    }
+}

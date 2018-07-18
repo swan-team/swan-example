@@ -1,0 +1,8 @@
+*.swp
+package-lock.json
+node_modules/
+output/
+.DS_Store
+.swo
+output.zip
+project.swan.json

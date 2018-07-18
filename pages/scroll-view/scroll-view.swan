@@ -1,0 +1,34 @@
+<view class="wrap">
+    <view class="title">横向滚动</view>
+    <scroll-view 
+        scroll-x 
+        class="scroll-view"
+        bind:scrolltoupper="upper"
+        bind:scrolltolower="lower"
+        scroll-into-view="one"
+        upper-threshold="1"
+        lower-threshold="1"
+        bind:scroll="myscroll"
+    >
+        <view id="one"   class="color-a row-view">A</view>
+        <view id="two"   class="color-b row-view">B</view>
+        <view id="three" class="color-c row-view">C</view>
+    </scroll-view>
+
+    <view class="title">纵向滚动</view>
+    <scroll-view
+        scroll-y
+        class="scroll-view"
+        bind:scrolltoupper="upper" 
+        bind:scrolltolower="lower" 
+        scroll-into-view="four"
+        upper-threshold="10"  
+        lower-threshold="10"
+        bind:scroll="myscroll"
+        enable-back-to-top="true"
+    >
+        <view id="four" class="color-a">A</view>
+        <view id="five" class="color-b">B</view>
+        <view id="six"  class="color-c">C</view>
+    </scroll-view>
+</view>

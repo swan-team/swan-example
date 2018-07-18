@@ -1,0 +1,49 @@
+.wrap {
+    font-size: .16rem;
+}
+
+.wrap textarea {
+    margin: 0 .2rem .07rem .2rem;
+    background: #fff;
+}
+
+.wrap textarea:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 4px;
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    .wrap textarea:after {
+        width: 150%;
+        height: 150%;
+        -webkit-transform: scale(.6667);
+                transform: scale(.6667);
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .wrap textarea:after {
+        width: 200%;
+        height: 200%;
+        -webkit-transform: scale(.5);
+                transform: scale(.5);
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+    .wrap textarea:after {
+        width: 300%;
+        height: 300%;
+        -webkit-transform: scale(.3333);
+                transform: scale(.3333);
+    }
+}

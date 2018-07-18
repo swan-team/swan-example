@@ -1,0 +1,17 @@
+/**
+ * @file swan index apiDemo's css
+ * @author renzhonghua
+ */
+
+.page-body {
+    margin-top: 0;
+}
+
+.page-info {
+    height: 83px;
+    line-height: 83px;
+    background-color: #fff;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}

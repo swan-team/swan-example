@@ -1,0 +1,54 @@
+<view class="wrap">
+    <view class="mini-btn-content">
+        <view class="title">默认态</view>
+        <button type="primary" size="mini" class="mini-btn primary">
+            按钮
+        </button>
+        <button type="default" size="mini" class="mini-btn">按钮</button>
+        <button type="warn"    size="mini" class="mini-btn warn">
+            按钮
+        </button>
+    </view>
+
+    <view class="mini-btn-content">
+        <view class="title">按下态/无效态</view>
+        <button type="primary" size="mini" class="mini-btn primary disabled">
+            按钮
+        </button>
+        <button type="default" size="mini" class="mini-btn disabled">
+            按钮
+        </button>
+        <button type="warn"    size="mini" class="mini-btn warn disabled">
+            按钮
+        </button>
+    </view>
+
+    <view class="btn-content">
+        <button type="primary" class="btn primary">
+            主操作按钮 默认态
+        </button>
+        <button type="primary" class="btn primary disabled" disabled>
+            主操作按钮 按下/无效态
+        </button>
+        <button type="default" class="btn">
+            次要操作按钮 默认态
+        </button>
+        <button type="default" class="btn disabled" disabled>
+            次要操作按钮 按下/无效态
+        </button>
+        <button type="warn" class="btn warn">
+            警告类操作按钮 默认态
+        </button>
+        <button type="warn" class="btn warn disabled" disabled>
+            警告类操作按钮 按下/无效态
+        </button>
+    </view>
+
+    <view>
+        <button type="default" class="middle-btn" open-type="share">按钮</button>
+        <button type="default" class="middle-btn disabled" open-type="share">
+            按钮
+        </button>
+
+    </view>
+</view>

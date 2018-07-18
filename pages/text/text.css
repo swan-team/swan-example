@@ -1,0 +1,74 @@
+/**
+ * @demo page component for text
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+    padding: .1rem;
+}
+.group {
+    margin: .3rem .2rem .2rem .2rem;
+}
+.text-box {
+    display: flex;
+    margin-bottom: .0667rem;
+}
+.text-px {
+    flex: 0 0 .8rem;
+    text-align: center;
+}
+.text-20px {
+    line-height: 1.19rem;
+}
+.text-17px {
+    line-height: 1rem;
+}
+.text-14px {
+    line-height: .89rem;
+}
+.text-13px {
+    line-height: .68rem;
+}
+.text-content {
+    background: #fff;
+    padding: .1rem;
+    flex: 1;
+}
+.btn {
+    margin: .07rem .23rem 0;
+}
+.wrap-20px {
+    font-size: .2rem;
+    height: 1.19rem;
+}
+.wrap-17px {
+    font-size: .17rem;
+    height: 1rem;
+}
+.wrap-14px {
+    font-size: .14rem;
+    height: .89rem;
+}
+.wrap-13px {
+    font-size: .13rem;
+    height: .68rem;
+}
+.content {
+    overflow: scroll;
+}
+.content-20px {
+    height: .99rem;
+}
+.content-17px {
+    height: .8rem;
+    line-height: 1.5;
+}
+.content-14px {
+    height: .69rem;
+    line-height: 1.5;
+}
+.content-13px {
+    height: .48rem;
+    line-height: 1.5;
+}

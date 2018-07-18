@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="page-body">
+        <view class="info-ctn">
+            <view class="info-item" s-for="item in infoList">
+                <text class="info-label">{{item.label}}：</text>
+                <text class="info-value">{{item.value}}</text>
+            </view>
+        </view>
+        <view class="btn-ctn">
+            <button bind:tap="getSystemInfo" type="primary" hover-stop-propagation="true">点击获取系统信息</button>
+            <button bind:tap="clearClick" hover-stop-propagation="true">清空</button>
+        </view>
+    </view>
+    <view class="page-title">
+        <view class="page-title-line"></view>
+        <view class="page-title-text">{{title}}</view>
+    </view>
+</view>

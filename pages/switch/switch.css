@@ -1,0 +1,31 @@
+/**
+ * @demo page component for switch
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.init-switch {
+    margin: 0 .05rem 0 .25rem;
+    vertical-align: middle;
+
+}
+.switch-text {
+    vertical-align: -.02rem;
+}
+.item-wrap {
+    background: #fff;
+}
+.item {
+    padding: .15rem 0;
+    border-bottom: 1px #f5f5f5 solid;
+    margin-left: .2rem;
+    position: relative;
+}
+.switch {
+    position: absolute;
+    top: 50%;
+    right: .2rem;
+    transform: translateY(-50%); 
+}

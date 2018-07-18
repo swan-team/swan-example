@@ -1,0 +1,8 @@
+<view class="wrap">
+    <view class="title">设置step</view>
+    <slider min="0" max="1500" value="200" step="30" show-value bind:change="sliderChange"></slider>
+    <view class="title">显示当前value</view>
+    <slider min="0" max="1500" value="421" show-value bind:change="sliderChange"></slider>
+    <view class="title">设置最小最大值</view>
+    <slider min="200" max="1500" value="330" show-value bind:change="sliderChange"></slider>
+</view>

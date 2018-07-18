@@ -1,0 +1,21 @@
+<view class="group">
+    <view class="group-hd">
+        <image class="group-logo" src="../../images/component_logo.png"></image>
+        <view class="group-desc">以下将展示小程序官方组件能力，组件样式仅供参考，开发者可根据自身需求自定义组件样式。</view>
+    </view>
+
+    <view s-for="item, index in items" class="group-bd">
+        <view class="item border-bottom {{item.open ? '' : 'item-close'}}" bind:tap="toggleClick" data-index="{{index}}" data-id="{{item.id}}">
+            <image class="item-logo" src="{{item.icon}}"></image>
+            <text class="item-desc">{{item.name}}</text>
+            <image s-if="item.id" class="item-logo item-toggle" src="../../images/right_arrow.png"></image>
+            <image s-else class="item-logo item-toggle" src="{{item.open ? '../../images/close.png' : '../../images/open.png'}}"></image>
+        </view>
+        <view s-if="item.open">
+            <view class="sub-item border-bottom" s-for="subItem in item.list" bind:tap="oneItemClick" data-id="{{subItem.id}}">
+                <text class="sub-item-desc">{{subItem.subName}}</text>
+                <image class="item-logo sub-item-goto" src="../../images/right_arrow.png"></image>
+            </view>
+        </view>
+    </view>
+</view>

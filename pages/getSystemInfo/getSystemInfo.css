@@ -1,0 +1,42 @@
+/**
+ * @file swan index apiDemo's css
+ * @author renzhonghua
+ */
+
+.page-body {
+    margin-top: 0;
+}
+
+.info-ctn {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+    padding: 0 18px;
+}
+
+.info-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.info-label {
+    font-size: 18px;
+    color: #333;
+    min-width: 95px;
+    flex: 1;
+}
+
+.info-value {
+    flex: 3;
+}
+
+.btn-ctn {
+    margin-top: 42px;
+}
+
+swan-button {
+    margin-bottom: 15px;
+}

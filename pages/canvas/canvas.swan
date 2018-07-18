@@ -1,0 +1,8 @@
+<view class="wrap">
+    <view s-if="canvasShow" class="canvas-wrap {{canvasOff}}">
+        <canvas canvas-id="myCanvas" class="canvas"  bindtouchend="canvas" bindtouchmove="mvcan"></canvas>
+    </view>
+    <button class="btn" type="primary" bind:tap="showcanvas">展示canvas</button>
+    <button class="btn" type="primary" bind:tap="delcanvas">删除canvas</button>
+    <button class="btn" type="primary" bind:tap="sendadraw">执行一条绘制指令</button>
+</view>

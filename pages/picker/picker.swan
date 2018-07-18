@@ -1,0 +1,55 @@
+<view class="wrap">
+    <view class="title">时间选择</view>
+    <form>
+        <label class="section" for="section1">
+            <view class="section-title">当前选择</view>
+            <picker id="section1" mode="time" value="{{time}}" start="1:01" end="22:59" bind:change="timeChange">
+                <view class="picker">
+                    {{time}}
+                </view>
+            </picker>
+        </label>
+    </form>
+    <view class="title">日期选择</view>
+    <form>
+        <label class="section date-section" for="section2">
+            <view class="section-title">当前选择</view>
+            <picker id="section2" mode="date" value="{{dateDay}}" bind:change="dateChangeDay" fields="day">
+                <view>
+                    {{dateDay}}
+                </view>
+            </picker>
+        </label>
+    </form>
+    <form>
+        <label class="section date-section" for="section3">
+            <view class="section-title">当前选择</view>
+            <picker id="section3" mode="date" value="{{dateMonth}}" bind:change="dateChangeMonth" fields="month">
+                <view>
+                    {{dateMonth}}
+                </view>
+            </picker>
+        </label>
+    </form>
+    <form>
+        <label class="section date-section" for="section4">
+            <view class="section-title">当前选择</view>
+            <picker id="section4" mode="date" value="{{dateYear}}" bind:change="dateChangeYear" fields="year">
+                <view>
+                    {{dateYear}}
+                </view>
+            </picker>
+        </label>
+    </form>
+    <view class="title">地区选择</view>
+    <form>
+        <label class="section" for="section5">
+            <view class="section-title">当前选择</view>
+            <picker id="section5" mode="region" bind:change="regionChange" custom-item="{{customItem}}" title="地区选择器">
+                <view class="picker">
+                    {{regionData[0]}} {{regionData[1]}} {{regionData[2]}}
+                </view>
+            </picker>
+        </label>
+    </form>
+</view>

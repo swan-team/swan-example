@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="page-body">
+        <button bind:tap="navigateTo" type="primary" hover-stop-propagation="true">跳转新页面</button>
+        <button bind:tap="navigateBack" type="primary" hover-stop-propagation="true">返回上一页</button>
+        <button bind:tap="redirectTo" type="primary" hover-stop-propagation="true">在当前页面打开</button>
+    </view>
+    <view class="page-title">
+        <view class="page-title-line"></view>
+        <view class="page-title-text">{{title}}</view>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+<view class="wrap">
+    <view class="title">默认样式</view>
+    <view class="img-box big-img">
+        <image class="swan-icon" src="../../images/swan_logo.png"></image>
+    </view>
+    <view class="img-box small-img">
+        <view class="rect-box">
+            <image class="swan-icon" src="../../images/swan_logo.png"></image>
+        </view>
+        <view class="cir-box">
+            <image class="swan-icon" src="../../images/swan_logo.png"></image>
+        </view>
+    </view>
+</view>

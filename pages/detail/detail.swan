@@ -1,0 +1,8 @@
+<view class="container detail-container">
+    <view class="page-body">
+    </view>
+    <view class="page-title detail-title">
+        <view class="page-title-text">{{title}}</view>
+        <view class="page-title-line"></view>
+    </view>
+</view>

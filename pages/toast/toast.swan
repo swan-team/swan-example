@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="page-body">
+        <button bind:tap="showToast" type="primary" hover-stop-propagation="true">点击弹出默认toast</button>
+        <button bind:tap="showToastIcon" type="primary" hover-stop-propagation="true">点击弹出设置icon的toast</button>
+        <button bind:tap="showToastDuration" type="primary" hover-stop-propagation="true">点击弹出设置duration的toast</button>
+        <button bind:tap="showToastLoading" type="primary" hover-stop-propagation="true">点击弹出显示loading的toast</button>
+        <button bind:tap="hideLoading" type="primary" hover-stop-propagation="true">点击隐藏loading</button>
+        <button bind:tap="hideToast" type="primary" hover-stop-propagation="true">点击隐藏toast</button>
+    </view>
+    <view class="page-title">
+        <view class="page-title-line"></view>
+        <view class="page-title-text">{{title}}</view>
+    </view>
+</view>

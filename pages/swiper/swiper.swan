@@ -1,0 +1,52 @@
+<view class="wrap">
+    <view class="title">示例</view>
+    <view class="swiper-wrap">
+        <swiper 
+            indicator-color="rgba(0,0,0,0.30)"
+            indicator-active-color="#fff"
+            duration="{{switchDuration}}"
+            interval="{{autoPlayInterval}}"
+            autoplay="{{switchAutoPlayStatus}}"
+            indicator-dots="{{switchIndicateStatus}}" 
+            vertical="false"
+            circular="true"
+            current="0"
+            bind:change="swiperChange"
+        >
+            <block s-for="item in items">
+                <swiper-item class="{{item.className}}">
+                    <view class="item">{{item.value}}</view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="switch-wrap">
+        <view>
+            <text>指示器</text>
+            <switch checked="{{switchIndicateStatus}}" bind:change="switchIndicate" class="switch"></switch>
+        </view>
+        <view>
+            <text>自动播放</text>
+            <switch checked="{{switchAutoPlayStatus}}" bind:change="switchAutoPlay" class="switch"></switch>
+        </view>
+    </view>
+
+    <view class="slider-wrap">
+        <view>
+            <view class="slider-title-time">
+                <text class="slider-title">幻灯片切换时长</text>
+                <text class="slider-time">{{switchDuration}}ms</text>
+            </view>
+            <slider min="300" max="1500" value="{{switchDuration}}"  bind:change="changeSwitchDuration"></slider>
+        </view>
+
+        <view>
+            <view class="slider-title-time">
+                <text class="slider-title">自动播放间隔时长</text>
+                <text class="slider-time">{{autoPlayInterval}}ms</text>
+            </view>
+            <slider min="1000" max="5000" value="{{autoPlayInterval}}" bind:change="changeAutoPlayInterval"></slider>
+        </view>
+    </view>
+</view>

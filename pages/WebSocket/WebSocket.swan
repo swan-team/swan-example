@@ -1,0 +1,2 @@
+<button type="primary" bind:tap="getConnect"> 点我进行scoket连接 </button>
+<button type="primary" bind:tap="send"> 点我进行发送数据 </button>

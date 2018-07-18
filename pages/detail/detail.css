@@ -1,0 +1,19 @@
+/**
+ * @file swan index page's css
+ * @author houyu
+ */
+
+.page-body {
+    margin: .42rem .17rem 0;
+    text-align: center;
+    font-size: .18rem;
+}
+.detail-container {
+    background-color: #fff;
+}
+.detail-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

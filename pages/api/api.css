@@ -1,0 +1,90 @@
+/**
+ * @file swan index apiDemo's css
+ * @author renzhonghua
+ */
+
+.group {
+    font-size: .15rem;
+}
+
+.group-hd {
+    height: 1.87rem;
+    padding: 0 .22rem 0 .29rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.group-logo {
+    width: .52rem;
+    height: .52rem;
+}
+
+.item-logo {
+    width: .26rem;
+    height: .26rem;
+}
+
+.group-desc {
+    text-align: center;
+    color: #999;
+    margin-top: .14rem;
+    line-height: 1.6;
+}
+
+.group-bd {
+    border-top: 7px solid #f5f5f5;
+    background: #fff;
+}
+
+.group-bd:last-child {
+    border-bottom: 7px solid #f5f5f5;
+}
+
+.item {
+    padding: .17rem .23rem .17rem .3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.item-close:after {
+    height: 0;
+}
+
+.item-logo {
+    display: inline-block;
+}
+
+.item-desc {
+    font-size: .17rem;
+    margin-left: .18rem;
+}
+
+.item-toggle {
+    position: absolute;
+    right: .23rem;
+}
+
+.sub-item {
+    position: relative;
+    margin-left: .75rem;
+    padding: .125rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.sub-item:last-child:after {
+    height: 0;
+}
+
+.sub-item-goto {
+    position: absolute;
+    right: .23rem;
+}
+
+.sub-item-desc {
+    color: #666;
+}

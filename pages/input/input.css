@@ -1,0 +1,21 @@
+/**
+ *@demo for input component
+ *@author lvlei
+ */
+
+.section {
+    font-size: .16rem;
+}
+.title {
+    padding: .2rem .2rem .14rem !important;
+}
+.ipt {
+    /*margin: 0 .2rem .07rem .2rem;*/
+    width: 100%;
+    padding-left: .2rem;
+    height: .4rem;
+    background: #fff;
+}
+.small-ipt {
+    width: 2.79rem;
+}

@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="page-body">
+        <button bind:tap="requestPolymerPayment" type="primary" hover-stop-propagation="true">支付0.01元</button>
+    </view>
+    <view class="page-title">
+        <view class="page-title-line"></view>
+        <view class="page-title-text">{{title}}</view>
+    </view>
+</view>
