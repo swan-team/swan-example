@@ -1,5 +1,5 @@
 {
-  "name": "@swan-team/swan-demo",
+  "name": "swan-example",
   "version": "0.1.0",
   "description": "小程序官方示例Demo，用于展示当前已支持的接口能力及组件。",
   "main": "index.js",
