@@ -17,9 +17,7 @@ Page({
 
     navigateBack(e) {
         swan.navigateBack({
-            data: {
-                to: 'baidu'
-            }
+            delta: 2
         });
     },
 
