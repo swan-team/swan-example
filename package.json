@@ -1,7 +1,7 @@
 {
   "name": "swan-example",
   "version": "0.1.1",
-  "description": "小程序官方示例Demo，用于展示当前已支持的接口能力及组件。",
+  "description": "小程序官方示例Demo，用于展示当前已支持的接口能力及组件。 ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
