@@ -20,9 +20,6 @@ Page({
                 subName: '支付',
                 id: 'payment'
             }, {
-            //     subName: '获取用户信息',
-            //     id: 'getUserInfo'
-            // }, {
                 subName: '设置',
                 id: 'openSetting'
             }, {
