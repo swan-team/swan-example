@@ -7,7 +7,7 @@
 
 Page({
     data: {
-        height: 20,
+        height: 1,
         focus: false
     },
     bindFocus(e) {

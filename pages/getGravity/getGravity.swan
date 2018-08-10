@@ -1,0 +1,19 @@
+<view class="wrap">
+    <view class="page-top">
+        <view class="page-top-text">{{title}}</view>
+        <view class="page-top-line"></view>
+    </view>
+    <view class="page-body-canvas">
+        <image src="../../images/gravity.png" class="page-body-ball"></image>
+        <canvas class="page-body-ball" show="{{true}}" canvas-id="small-ball"></canvas>
+    </view>
+    <view class="page-body-xyz">
+        <text class="page-body-title">X: {{x}}</text>
+        <text class="page-body-title">Y: {{y}}</text>
+        <text class="page-body-title">Z: {{z}}</text>
+    </view>
+    <view class="page-body-btn">
+        <view class="middle-btn {{!iswatch ? '' : 'disabled'}}" bind:tap="startWatch">开始监听</view>
+        <view class="middle-btn {{!iswatch ? 'disabled' : ''}}" bind:tap="stopWatch">停止监听</view >
+    </view>
+</view>

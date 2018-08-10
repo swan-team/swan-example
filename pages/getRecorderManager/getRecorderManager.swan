@@ -1,0 +1,20 @@
+<view class="wrap">
+    <view class="page-top">
+        <view class="page-top-text">{{title}}</view>
+        <view class="page-top-line"></view>
+    </view>
+    <view class="page-record">
+        <view class="page-time">
+            <view class="record-time">{{startTime}}</view>
+            <view class="record-finish"></view>
+        </view>
+        <view class="page-status">
+            <view class="{{isrecord ? 'btn-record' : 'btn-start'}}"bind:tap="getRecord" bind:tap="getRecord" s-if="{{!isend}}"></view>
+            <view class="endtime" s-if="{{isend}}">{{endTime}}</view>
+            <view class="page-finish" s-if="{{isend}}">
+                <view class="{{isplay ? 'play' : 'pause'}}" bind:tap="playRecord"></view>
+                <view class="delete" bind:tap="deleteRecord"></view>
+            </view>
+        </view>
+    </view>
+</view>

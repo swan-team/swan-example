@@ -1,0 +1,67 @@
+html,
+body {
+    background-color: #fff;
+}
+.wrap {
+    font-size: .15rem;
+    text-align: center;
+}
+.page-record {
+    padding-top: .78rem;
+}
+.page-record .record-time {
+    color: #333;
+    font-size: .28rem;
+}
+.page-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-record .btn-start {
+    background: url(../../images/Group.png) no-repeat center;
+    width: .83rem;
+    height: .83rem;
+    background-size: 100% 100%;
+    margin-top: .8rem;
+}
+.page-record .btn-record {
+    background: url(../../images/recording.png) no-repeat center;
+    width: .83rem;
+    height: .83rem;
+    background-size: 100% 100%;
+    margin-top: .8rem;
+}
+.page-record .endtime {
+    color: #666;
+    font-size: .17rem;
+    padding-top: .18rem;
+}
+.page-record .play {
+    background: url(../../images/playing.png) no-repeat center;
+    width: .83rem;
+    height: .83rem;
+    background-size: 100% 100%;
+    margin-right: .64rem;
+}
+.page-record .pause {
+    background: url(../../images/pausing.png) no-repeat center;
+    width: .83rem;
+    height: .83rem;
+    background-size: 100% 100%;
+    margin-right: .64rem;
+}
+.page-record .delete {
+    background: url(../../images/delete.png) no-repeat center;
+    width: .83rem;
+    height: .83rem;
+    background-size: 100% 100%;
+}
+.page-finish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: .48rem;
+}

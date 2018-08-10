@@ -1,12 +1,20 @@
 .wrap {
     font-size: .16rem;
-}
-
-.wrap textarea {
-    margin: 0 .2rem .07rem .2rem;
     background: #fff;
+    height: 100%;
+    padding-top: .08rem;
 }
-
+.title {
+    color: #999;
+    padding: .33rem .21rem .17rem;
+}
+.wrap textarea {
+    background: #fafafa;
+    width: 100%;
+    padding-left: .17rem;
+    padding-top: .14rem;
+    color: #333;
+}
 .wrap textarea:after {
     content: "";
     display: block;
@@ -15,8 +23,7 @@
     bottom: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border: 1px solid #999;
-    border-radius: 4px;
+    border: 1px solid #e6e6e6;
     -webkit-transform-origin: 100% 100%;
             transform-origin: 100% 100%;
 }

@@ -8,6 +8,7 @@ body {
     background-color: #f5f5f5;
     font-size: 100px;
     font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+    height: 100%;
  }
 @media screen and (max-width: 360px) {
     html {
@@ -65,7 +66,22 @@ swan-button {
     height: .02rem;
     background-color: #E6E6E6;
 }
-
+.page-top {
+    text-align: center;
+    margin-top: .36rem;
+}
+.page-top-line {
+    margin: 0 auto;
+    width: .54rem;
+    height: .01rem;
+    background-color: #979797;
+    border: 0;
+    position: relative;
+}
+.page-top-text {
+    margin-bottom: .1rem;
+    color: #999;
+}
 .page-title-text {
     margin-top: .07rem;
     color: #ccc;
