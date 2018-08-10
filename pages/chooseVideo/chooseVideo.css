@@ -1,0 +1,68 @@
+html,
+body {
+    background-color: #fff;
+}
+.wrap {
+    font-size: .16rem;
+    height: 100%;
+}
+.chooseBox {
+    width: 100%;
+    height: 2.24rem;
+    background: #fafafa;
+    text-align: center;
+    margin: .8rem 0 .2rem;
+}
+.chooseBtn {
+    padding-top: .8rem;
+    color: #666;
+    font-size: .15rem;
+}
+.chooseIcon {
+    width: .43rem;
+    height: .43rem;
+    color: #999;
+    margin-bottom: .21rem;
+}
+#myVideo {
+    width: 3.8rem;
+}
+.source {
+    text-align: left;
+    font-size: .18rem;
+    display: flex;
+    justify-contnet: center;
+    align-items: center;
+    height: .48rem;
+    padding-left: .17rem;
+}
+.device {
+    text-align: left;
+    font-size: .18rem;
+    display: flex;
+    justify-contnet: center;
+    align-items: center;
+    height: .48rem;
+    padding-left: .17rem;
+}
+.duration {
+    text-align: left;
+    font-size: .18rem;
+    display: flex;
+    justify-contnet: center;
+    align-items: center;
+    height: .48rem;
+    padding-left: .17rem;
+}
+.source text {
+    display: inline-block;
+    padding-right: .35rem;
+}
+.duration text {
+    display: inline-block;
+    padding-right: .35rem;
+}
+.device text {
+    display: inline-block;
+    padding-right: .53rem;
+}

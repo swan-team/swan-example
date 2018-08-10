@@ -52,7 +52,11 @@
         "pages/uploadFile/uploadFile",
         "pages/downloadFile/downloadFile",
         "pages/audio/audio",
-        "pages/map/map"
+        "pages/map/map",
+        "pages/chooseVideo/chooseVideo",
+        "pages/getRecorderManager/getRecorderManager",
+        "pages/getGravity/getGravity",
+        "pages/getCompass/getCompass"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

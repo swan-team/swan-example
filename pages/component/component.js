@@ -48,6 +48,9 @@ Page({
                 subName: 'input',
                 id: 'input'
             }, {
+                subName: 'textarea',
+                id: 'textarea'
+            }, {
                 subName: 'picker',
                 id: 'picker'
             }, {

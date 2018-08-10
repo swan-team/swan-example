@@ -1,0 +1,31 @@
+<view class="wrap">
+    <view class="page-top">
+        <view class="page-top-text">{{title}}</view>
+        <view class="page-top-line"></view>
+    </view>
+
+    <view class="direction">
+        <view class="bg-compass-line"></view>
+        <view class="bg-compass" style="transform: rotate(-{{direction}}deg)">
+            <view class="num num0" style="transform: rotate({{direction}}deg)">0</view>
+            <view class="num num90" style="transform: rotate({{direction}}deg)">90</view>
+            <view class="num num180" style="transform: rotate({{direction}}deg)">180</view>
+            <view class="num num270" style="transform: rotate({{direction}}deg)">270</view>
+        </view>
+        <div class="cg-wrap">
+            <div class="circle-left-wrap"><div class="circle-left" style="transform:rotate({{leftdeg}}deg);transform-origin:50% 50%"></div></div>
+            <div class="circle-right-wrap"><div class="circle-right" style="transform:rotate({{rightdeg}}deg);transform-origin:50% 50%"></div></div>
+            <div class="mask">
+                <view class="direction-num">
+                    <text>{{direction}}</text>
+                    <text class="direction-degree"></text>
+                </view>
+            </div>
+        </div>
+    </view>
+    <view class="page-body-btn">
+        <view class="middle-btn {{!iswatch ? '' : 'disabled'}}" bind:tap="startWatch">开始监听</view>
+        <view class="middle-btn {{!iswatch ? 'disabled' : ''}}" bind:tap="stopWatch">停止监听</view >
+    </view>
+    <view>{{res}}<view>
+</view>
