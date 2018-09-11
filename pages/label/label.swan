@@ -1,9 +1,38 @@
 <view class="wrap">
-    <view class="title">label用for表示表单组件</view>
-    <form class="form">
-        <checkbox class="checkbox" checked>&nbsp;&nbsp;选项一</checkbox>
-        <checkbox class="checkbox" checked="false" id="checkbox2" bind:tap="clickme">&nbsp;&nbsp;选项二</checkbox>
-        <label for="checkbox2" class="labelItem">点击我相当于选择选项二</label>
-    </form>
+    <view class="page-section">
+        <view class="page-section-title">表单组件在label内</view>
+        <checkbox-group class="group">
+            <view class="label-1 {{index === 0 ? 'label-first': ''}}" s-for="item, index in checkboxItems">
+              <label>
+                <checkbox value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+                <text class="label-1-text">{{item.value}}</text>
+              </label>
+            </view>
+        </checkbox-group>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">label用for标识表单组件</view>
+        <radio-group class="group">
+            <view class="label-2 {{index === 0 ? 'label-first': ''}}" s-for="item, index in radioItems">
+              <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}"></radio>
+              <label class="label-2-text" for="{{item.name}}"><text>{{item.value}}</text></label>
+            </view>
+        </radio-group>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">label内有多个时选中第一个</view>
+        <label class="label-3">
+            <view class="label-box">
+                <view class="checkbox-3 label-first">
+                    <checkbox></checkbox>
+                    <text>选项一</text>
+                </view>
+                <view class="checkbox-3">
+                    <checkbox></checkbox>
+                    <text>选项二</text>
+                </view>
+            </view>
+            <view class="label-3-text">点击该label下的文字默认选中第一个checkbox</view>
+        </label>
+    </view>
 </view>
-

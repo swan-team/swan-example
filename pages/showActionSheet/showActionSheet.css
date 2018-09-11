@@ -2,3 +2,14 @@
  * @file swan index apiDemo's css
  * @author renzhonghua
  */
+
+.button {
+    color: #333;
+    font-size: .18rem;
+}
+.button::after {
+    border-color: #999;
+}
+.page-title-line {
+    width: .85rem;
+}
