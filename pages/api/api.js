@@ -14,6 +14,9 @@ Page({
                 subName: '授权',
                 id: 'authorize'
             }, {
+                subName: '获取用户信息',
+                id: 'getUserInfo'
+            }, {
                 subName: '登录',
                 id: 'login'
             }, {

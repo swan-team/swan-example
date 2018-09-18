@@ -9,41 +9,19 @@
 .img-box {
     margin: auto .23rem;
     position: relative;
+    height: 1.13rem;
+}
+.local-img {
+    background: #EAEAEA;
+}
+.internet-img {
+    background-color: #D2D3D4;
 }
 .swan-icon {
-    width: 29px;
-    height: 29px;
+    width: 1.46rem;
+    height: .27rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.big-img {
-    height: 2.13rem;
-    line-height: 2.13rem;
-    background: #EAEAEA;
-}
-.small-img {
-    margin-top: .15rem;
-}
-.rect-box,
-.cir-box {
-    background: #EAEAEA;
-    display: inline-block;
-    position: relative;
-}
-.rect-box {
-    height: .91rem;
-    width: 1.21rem;
-    margin-right: .22rem;
-}
-.cir-box {
-    height: .64rem;
-    width: .64rem;
-    border-radius: 50%;
-    top: -.13rem;
-}
-.cir-box image {
-    width: 32px;
-    height: 32px;
 }

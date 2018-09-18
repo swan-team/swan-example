@@ -1,6 +1,13 @@
 <view class="container">
-    <view class="page-body">
-        <button bind:tap="getUserInfo" type="primary" hover-stop-propagation="true">获取用户信息</button>
+    <view class="user-content">
+        <view class="user-info">
+            <image class="avator" src="{{imageSrc}}"></image>
+            <view class="nickname {{nameColor}}">{{nickname}}</view>
+        </view>
+        <view class="button-content">
+            <button bind:tap="getUserInfo" class="get-info" type="primary" hover-stop-propagation="true">获取用户信息</button>
+            <button bind:tap="clearUserInfo" class="clear-info" type="default" hover-stop-propagation="true">清空</button>
+        </view>
     </view>
     <view class="page-title">
         <view class="page-title-line"></view>
