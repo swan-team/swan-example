@@ -1,6 +1,6 @@
 <view class="container">
     <view class="page-body">
-        <button bind:tap="showActionSheet" type="primary" hover-stop-propagation="true">点击弹出action sheet</button>
+        <button bind:tap="showActionSheet" class="button" type="default" hover-stop-propagation="true">弹出action sheet</button>
     </view>
     <view class="page-title">
         <view class="page-title-line"></view>

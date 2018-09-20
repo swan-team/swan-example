@@ -6,12 +6,13 @@
 /* globals Page */
 Page({
     data: {
-        items: [
-            {name: 'USA', value: '美国'},
-            {name: 'CHN', value: '中国', checked: 'true'}
+        checkboxItems: [
+            {name: 'CHN', value: '中国', checked: 'true'},
+            {name: 'USA', value: '美国'}
+        ],
+        radioItems: [
+            {name: 'CHN', value: '中国', checked: 'true'},
+            {name: 'USA', value: '美国'}
         ]
-    },
-    clickme: function (e) {
-        console.log(e);
     }
 });

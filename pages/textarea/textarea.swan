@@ -1,11 +1,15 @@
 <view class="wrap">
-    <view class="title">自动变高</view>
-    <textarea placeholder="自动变高" auto-height
+    <view class="section">
+        <view class="title">输入区高度自适应</view>
+        <textarea
+        auto-height
         bindinput="bindInput"
         bindfocus="bindFocus"
         bindblur="bindBlur"
         bindlinechange="bindLinechange" />
-
-    <view class="title">placeholder 样式</view>
-    <textarea placeholder="placeholder颜色是红色的" placeholder-style="color: #ff0000" />
+    </view>
+    <view class="section">
+        <view class="title">自动聚焦的textarea</view>
+        <textarea focus="{{!focus}}" style="height:{{height}}rem"/>
+    </view>
 </view>

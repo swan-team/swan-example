@@ -14,6 +14,9 @@ Page({
                 subName: '授权',
                 id: 'authorize'
             }, {
+                subName: '获取用户信息',
+                id: 'getUserInfo'
+            }, {
                 subName: '登录',
                 id: 'login'
             }, {
@@ -66,6 +69,12 @@ Page({
                 subName: '监听手机网络状态',
                 id: 'onNetworkStatusChange'
             }, {
+                subName: '监听重力感应数据',
+                id: 'getGravity'
+            }, {
+                subName: '监听罗盘数据',
+                id: 'getCompass'
+            }, {
                 subName: '拨打电话',
                 id: 'makePhoneCall'
             }, {
@@ -96,6 +105,12 @@ Page({
             }, {
                 subName: '文件',
                 id: 'file'
+            }, {
+                subName: '选择视频',
+                id: 'chooseVideo'
+            }, {
+                subName: '录音管理',
+                id: 'getRecorderManager'
             }]
         }, {
             icon: '../../images/location.png',

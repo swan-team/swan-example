@@ -6,13 +6,53 @@
 .wrap {
     font-size: .16rem;
 }
-.form {
-    margin: 0 .25rem;
+.page-section {
+    padding-top: .3rem;
 }
-.labelItem {
+.page-section-title {
+    padding-bottom: .13rem;
+    padding-left: .17rem;
+    color: #999;
+}
+.group {
     display: block;
-    margin: .2rem .3rem;
+    background-color: #fff;
 }
-.checkbox {
-    padding-right: 10px;
+.label-box {
+    display: block;
+    background-color: #fff;
+}
+.label-1 {
+    margin: 0 .17rem;
+    padding: .14rem 0;
+}
+.label-2 {
+    margin: 0 .17rem;
+    padding: .14rem 0;
+}
+
+.checkbox-3 {
+    margin: 0 .17rem;
+    padding: .14rem 0;
+}
+.label-first {
+    position: relative;
+}
+.label-3-text {
+    padding-top: .13rem;
+    padding-left: .17rem;
+    color: #3E5B9F;
+}
+.label-first:before {
+    content: "";
+    pointer-events: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #e6e6e6;
+    transform: scale(0.5);
+    transform-origin: 0 0;
 }

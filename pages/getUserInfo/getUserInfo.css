@@ -2,3 +2,44 @@
  * @file swan index apiDemo's css
  * @author renzhonghua
  */
+
+.user-info {
+    padding-top: 1rem;
+}
+.avator {
+    width: .95rem;
+    height: .95rem;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+.nickname {
+    font-size: .18rem;
+    text-align: center;
+    height: .58rem;
+    line-height: .58rem;
+    padding: 0 .15rem;
+}
+.nickname.default {
+    color: #999;
+}
+.nickname.active {
+    color: #333;
+}
+.button-content {
+    position: relative;
+    top: 0;
+}
+.button-content button {
+    margin-top: .15rem;
+    border-radius: .04rem;
+}
+.get-info {
+    margin-top: .39rem!important;
+}
+.get-info::after {
+    border: none;
+}
+.clear-info::after {
+    border-color: #999;
+}

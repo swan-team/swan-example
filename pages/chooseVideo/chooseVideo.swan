@@ -1,0 +1,23 @@
+<view class="wrap">
+    <view class="chooseBox">
+        <view class="chooseBtn" bind:tap="chooseVideo" s-if="!showVideo">
+            <image src="{{icon}}" class="chooseIcon">+</image>
+            <view class="chooseText">请选择视频</view>
+        </view>
+        <video id="myVideo" controls src="{{src}}" bindplay="playVideo" s-else></video>
+    </view>
+    <view class="section">
+        <view class="source border-bottom border-top">
+            <text>视频来源</text>
+            <text>拍摄或相册</text>
+        </view>
+        <view class="device border-bottom">
+            <text>摄像头</text>
+            <text>前置或后置</text>
+        </view>
+        <view class="duration border-bottom">
+            <text>拍摄长度</text>
+            <text>{{maxDuration}}秒</text>
+        </view>
+    </view>
+</view>
