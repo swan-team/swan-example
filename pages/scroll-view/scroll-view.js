@@ -12,6 +12,18 @@ Page({
         },
     },
 
+    toLeft() {
+        swan.showToast({
+            duration: 1000,
+            title: '到最左边了'
+        });
+    },
+    toRight() {
+        swan.showToast({
+            duration: 1000,
+            title: '到最右边了'
+        });
+    },
     upper() {
         swan.showToast({
             duration: 1000,

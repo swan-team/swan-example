@@ -3,7 +3,7 @@
         <view class="phone-call-container">
             <text>请在下方输入电话号码</text>
             <input bind:input="phoneNumberInput" class="input" type="number" placeholder="请输入电话号码"/>
-            <button bind:tap="makePhoneCall" type="primary" disabled="{{phoneNumber ? 'disabled' : 'false'}}" hover-stop-propagation="true">拨打</button>
+            <button bind:tap="makePhoneCall" type="primary" hover-stop-propagation="true">拨打</button>
         </view>
     </view>
     <view class="page-title">

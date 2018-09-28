@@ -24,12 +24,10 @@
         <label class="label-3">
             <view class="label-box">
                 <view class="checkbox-3 label-first">
-                    <checkbox></checkbox>
-                    <text>选项一</text>
+                    <checkbox >选项一</checkbox>
                 </view>
                 <view class="checkbox-3">
-                    <checkbox></checkbox>
-                    <text>选项二</text>
+                    <checkbox>选项二</checkbox>
                 </view>
             </view>
             <view class="label-3-text">点击该label下的文字默认选中第一个checkbox</view>
