@@ -16,9 +16,10 @@ Page({
         showVideo: false
     },
     playVideo() {
-        swan.showToast({
-            title: '触发bindplay'
-        });
+        // swan.showToast({
+        //     title: '触发bindplay'
+        // });
+        console.log('触发bindplay');
     },
     chooseVideo() {
         let self = this;

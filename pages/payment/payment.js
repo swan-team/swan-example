@@ -29,7 +29,7 @@ Page({
                     },
                     fail(err) {
                         swan.showToast({
-                            title: JSON.stringify(err)
+                            title: err.errMsg
                         });
                         console.log('pay fail', err);
                     }

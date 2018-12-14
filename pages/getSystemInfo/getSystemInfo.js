@@ -45,7 +45,7 @@ Page({
                 this.updateInfoList(res);
             },
             fail: err => {
-                this.showToast({
+                swan.showToast({
                     title: '获取失败'
                 });
             }

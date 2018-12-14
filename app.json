@@ -60,7 +60,7 @@
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
-        "navigationBarTitleText": "小程序测试",
+        "navigationBarTitleText": "智能小程序官方组件",
         "navigationBarTextStyle": "black",
         "backgroundTextStyle": "black",
         "enablePullDownRefresh": false

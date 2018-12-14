@@ -108,9 +108,9 @@ Page({
             }, {
                 subName: '选择视频',
                 id: 'chooseVideo'
-            }, {
-                subName: '录音管理',
-                id: 'getRecorderManager'
+            // }, {
+            //     subName: '录音管理',
+            //     id: 'getRecorderManager'
             }]
         }, {
             icon: '../../images/location.png',

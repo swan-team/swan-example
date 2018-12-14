@@ -50,9 +50,9 @@ Page({
             }, {
                 subName: 'label',
                 id: 'label'
-            }, {
-                subName: 'textarea',
-                id: 'textarea'
+            // }, {
+            //     subName: 'textarea',
+            //     id: 'textarea'
             }, {
                 subName: 'picker',
                 id: 'picker'
